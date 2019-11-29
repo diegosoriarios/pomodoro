@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15400" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15400"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="pomodoro_watch_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="00:00:00" textAlignment="center" id="O0e-9b-8jh"/>
+                        <button width="1" alignment="left" title="Start" id="xpw-5h-baE">
+                            <connections>
+                                <action selector="startTimer" destination="AgC-eL-Hgc" id="bUI-5c-m1u"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Pause" id="fYz-Ic-aZb">
+                            <connections>
+                                <action selector="pauseTimer" destination="AgC-eL-Hgc" id="hUv-WF-qHU"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Reset" id="aao-Uh-9yB">
+                            <connections>
+                                <action selector="resetTimer" destination="AgC-eL-Hgc" id="chU-4o-OPW"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="button" destination="xpw-5h-baE" id="cvZ-83-Hxk"/>
+                        <outlet property="pause" destination="fYz-Ic-aZb" id="o5c-ze-dvB"/>
+                        <outlet property="timeLabel" destination="O0e-9b-8jh" id="2St-3X-MSy"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+    </scenes>
+</document>

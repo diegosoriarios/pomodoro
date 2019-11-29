@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874FFBFC238DECF800F48927 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFBFB238DECF800F48927 /* AppDelegate.swift */; };
+		874FFBFE238DECF800F48927 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFBFD238DECF800F48927 /* SceneDelegate.swift */; };
+		874FFC00238DECF800F48927 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFBFF238DECF800F48927 /* ViewController.swift */; };
+		874FFC03238DECF800F48927 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874FFC01238DECF800F48927 /* Main.storyboard */; };
+		874FFC05238DECFA00F48927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874FFC04238DECFA00F48927 /* Assets.xcassets */; };
+		874FFC08238DECFA00F48927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874FFC06238DECFA00F48927 /* LaunchScreen.storyboard */; };
+		874FFC13238DECFA00F48927 /* pomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFC12238DECFA00F48927 /* pomodoroTests.swift */; };
+		874FFC1E238DECFA00F48927 /* pomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFC1D238DECFA00F48927 /* pomodoroUITests.swift */; };
+		874FFC31238DED2300F48927 /* pomodoro-watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 874FFC30238DED2300F48927 /* pomodoro-watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		874FFC37238DED2300F48927 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 874FFC35238DED2300F48927 /* Interface.storyboard */; };
+		874FFC39238DED2400F48927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874FFC38238DED2400F48927 /* Assets.xcassets */; };
+		874FFC40238DED2400F48927 /* pomodoro-watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 874FFC3F238DED2400F48927 /* pomodoro-watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		874FFC45238DED2400F48927 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFC44238DED2400F48927 /* InterfaceController.swift */; };
+		874FFC47238DED2400F48927 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFC46238DED2400F48927 /* ExtensionDelegate.swift */; };
+		874FFC49238DED2400F48927 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874FFC48238DED2400F48927 /* NotificationController.swift */; };
+		874FFC4B238DED2500F48927 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874FFC4A238DED2500F48927 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		874FFC0F238DECFA00F48927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874FFBF0238DECF800F48927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874FFBF7238DECF800F48927;
+			remoteInfo = pomodoro;
+		};
+		874FFC1A238DECFA00F48927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874FFBF0238DECF800F48927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874FFBF7238DECF800F48927;
+			remoteInfo = pomodoro;
+		};
+		874FFC32238DED2300F48927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874FFBF0238DECF800F48927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874FFC2F238DED2300F48927;
+			remoteInfo = "pomodoro-watch WatchKit App";
+		};
+		874FFC41238DED2400F48927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 874FFBF0238DECF800F48927 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 874FFC3E238DED2400F48927;
+			remoteInfo = "pomodoro-watch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		874FFC51238DED2500F48927 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				874FFC40238DED2400F48927 /* pomodoro-watch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC55238DED2500F48927 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				874FFC31238DED2300F48927 /* pomodoro-watch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		874FFBF8238DECF800F48927 /* pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FFBFB238DECF800F48927 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		874FFBFD238DECF800F48927 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		874FFBFF238DECF800F48927 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		874FFC02238DECF800F48927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		874FFC04238DECFA00F48927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874FFC07238DECFA00F48927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		874FFC09238DECFA00F48927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FFC0E238DECFA00F48927 /* pomodoroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FFC12238DECFA00F48927 /* pomodoroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroTests.swift; sourceTree = "<group>"; };
+		874FFC14238DECFA00F48927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FFC19238DECFA00F48927 /* pomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pomodoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FFC1D238DECFA00F48927 /* pomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pomodoroUITests.swift; sourceTree = "<group>"; };
+		874FFC1F238DECFA00F48927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FFC2D238DED2300F48927 /* pomodoro-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pomodoro-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FFC30238DED2300F48927 /* pomodoro-watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pomodoro-watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FFC36238DED2300F48927 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		874FFC38238DED2400F48927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874FFC3A238DED2400F48927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FFC3F238DED2400F48927 /* pomodoro-watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "pomodoro-watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		874FFC44238DED2400F48927 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		874FFC46238DED2400F48927 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		874FFC48238DED2400F48927 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		874FFC4A238DED2500F48927 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		874FFC4C238DED2500F48927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		874FFC4D238DED2500F48927 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		874FFBF5238DECF800F48927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC0B238DECFA00F48927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC16238DECFA00F48927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC3C238DED2400F48927 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		874FFBEF238DECF800F48927 = {
+			isa = PBXGroup;
+			children = (
+				874FFBFA238DECF800F48927 /* pomodoro */,
+				874FFC11238DECFA00F48927 /* pomodoroTests */,
+				874FFC1C238DECFA00F48927 /* pomodoroUITests */,
+				874FFC34238DED2300F48927 /* pomodoro-watch WatchKit App */,
+				874FFC43238DED2400F48927 /* pomodoro-watch WatchKit Extension */,
+				874FFBF9238DECF800F48927 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		874FFBF9238DECF800F48927 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874FFBF8238DECF800F48927 /* pomodoro.app */,
+				874FFC0E238DECFA00F48927 /* pomodoroTests.xctest */,
+				874FFC19238DECFA00F48927 /* pomodoroUITests.xctest */,
+				874FFC2D238DED2300F48927 /* pomodoro-watch.app */,
+				874FFC30238DED2300F48927 /* pomodoro-watch WatchKit App.app */,
+				874FFC3F238DED2400F48927 /* pomodoro-watch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		874FFBFA238DECF800F48927 /* pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				874FFBFB238DECF800F48927 /* AppDelegate.swift */,
+				874FFBFD238DECF800F48927 /* SceneDelegate.swift */,
+				874FFBFF238DECF800F48927 /* ViewController.swift */,
+				874FFC01238DECF800F48927 /* Main.storyboard */,
+				874FFC04238DECFA00F48927 /* Assets.xcassets */,
+				874FFC06238DECFA00F48927 /* LaunchScreen.storyboard */,
+				874FFC09238DECFA00F48927 /* Info.plist */,
+			);
+			path = pomodoro;
+			sourceTree = "<group>";
+		};
+		874FFC11238DECFA00F48927 /* pomodoroTests */ = {
+			isa = PBXGroup;
+			children = (
+				874FFC12238DECFA00F48927 /* pomodoroTests.swift */,
+				874FFC14238DECFA00F48927 /* Info.plist */,
+			);
+			path = pomodoroTests;
+			sourceTree = "<group>";
+		};
+		874FFC1C238DECFA00F48927 /* pomodoroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				874FFC1D238DECFA00F48927 /* pomodoroUITests.swift */,
+				874FFC1F238DECFA00F48927 /* Info.plist */,
+			);
+			path = pomodoroUITests;
+			sourceTree = "<group>";
+		};
+		874FFC34238DED2300F48927 /* pomodoro-watch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				874FFC35238DED2300F48927 /* Interface.storyboard */,
+				874FFC38238DED2400F48927 /* Assets.xcassets */,
+				874FFC3A238DED2400F48927 /* Info.plist */,
+			);
+			path = "pomodoro-watch WatchKit App";
+			sourceTree = "<group>";
+		};
+		874FFC43238DED2400F48927 /* pomodoro-watch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				874FFC44238DED2400F48927 /* InterfaceController.swift */,
+				874FFC46238DED2400F48927 /* ExtensionDelegate.swift */,
+				874FFC48238DED2400F48927 /* NotificationController.swift */,
+				874FFC4A238DED2500F48927 /* Assets.xcassets */,
+				874FFC4C238DED2500F48927 /* Info.plist */,
+				874FFC4D238DED2500F48927 /* PushNotificationPayload.apns */,
+			);
+			path = "pomodoro-watch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		874FFBF7238DECF800F48927 /* pomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FFC22238DECFA00F48927 /* Build configuration list for PBXNativeTarget "pomodoro" */;
+			buildPhases = (
+				874FFBF4238DECF800F48927 /* Sources */,
+				874FFBF5238DECF800F48927 /* Frameworks */,
+				874FFBF6238DECF800F48927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pomodoro;
+			productName = pomodoro;
+			productReference = 874FFBF8238DECF800F48927 /* pomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		874FFC0D238DECFA00F48927 /* pomodoroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FFC25238DECFA00F48927 /* Build configuration list for PBXNativeTarget "pomodoroTests" */;
+			buildPhases = (
+				874FFC0A238DECFA00F48927 /* Sources */,
+				874FFC0B238DECFA00F48927 /* Frameworks */,
+				874FFC0C238DECFA00F48927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874FFC10238DECFA00F48927 /* PBXTargetDependency */,
+			);
+			name = pomodoroTests;
+			productName = pomodoroTests;
+			productReference = 874FFC0E238DECFA00F48927 /* pomodoroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		874FFC18238DECFA00F48927 /* pomodoroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FFC28238DECFA00F48927 /* Build configuration list for PBXNativeTarget "pomodoroUITests" */;
+			buildPhases = (
+				874FFC15238DECFA00F48927 /* Sources */,
+				874FFC16238DECFA00F48927 /* Frameworks */,
+				874FFC17238DECFA00F48927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874FFC1B238DECFA00F48927 /* PBXTargetDependency */,
+			);
+			name = pomodoroUITests;
+			productName = pomodoroUITests;
+			productReference = 874FFC19238DECFA00F48927 /* pomodoroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		874FFC2C238DED2300F48927 /* pomodoro-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FFC56238DED2500F48927 /* Build configuration list for PBXNativeTarget "pomodoro-watch" */;
+			buildPhases = (
+				874FFC2B238DED2300F48927 /* Resources */,
+				874FFC55238DED2500F48927 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874FFC33238DED2300F48927 /* PBXTargetDependency */,
+			);
+			name = "pomodoro-watch";
+			productName = "pomodoro-watch";
+			productReference = 874FFC2D238DED2300F48927 /* pomodoro-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		874FFC2F238DED2300F48927 /* pomodoro-watch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FFC52238DED2500F48927 /* Build configuration list for PBXNativeTarget "pomodoro-watch WatchKit App" */;
+			buildPhases = (
+				874FFC2E238DED2300F48927 /* Resources */,
+				874FFC51238DED2500F48927 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				874FFC42238DED2400F48927 /* PBXTargetDependency */,
+			);
+			name = "pomodoro-watch WatchKit App";
+			productName = "pomodoro-watch WatchKit App";
+			productReference = 874FFC30238DED2300F48927 /* pomodoro-watch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		874FFC3E238DED2400F48927 /* pomodoro-watch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 874FFC4E238DED2500F48927 /* Build configuration list for PBXNativeTarget "pomodoro-watch WatchKit Extension" */;
+			buildPhases = (
+				874FFC3B238DED2400F48927 /* Sources */,
+				874FFC3C238DED2400F48927 /* Frameworks */,
+				874FFC3D238DED2400F48927 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pomodoro-watch WatchKit Extension";
+			productName = "pomodoro-watch WatchKit Extension";
+			productReference = 874FFC3F238DED2400F48927 /* pomodoro-watch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		874FFBF0238DECF800F48927 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = diego.rios;
+				TargetAttributes = {
+					874FFBF7238DECF800F48927 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					874FFC0D238DECFA00F48927 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 874FFBF7238DECF800F48927;
+					};
+					874FFC18238DECFA00F48927 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 874FFBF7238DECF800F48927;
+					};
+					874FFC2C238DED2300F48927 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					874FFC2F238DED2300F48927 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					874FFC3E238DED2400F48927 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 874FFBF3238DECF800F48927 /* Build configuration list for PBXProject "pomodoro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 874FFBEF238DECF800F48927;
+			productRefGroup = 874FFBF9238DECF800F48927 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				874FFBF7238DECF800F48927 /* pomodoro */,
+				874FFC0D238DECFA00F48927 /* pomodoroTests */,
+				874FFC18238DECFA00F48927 /* pomodoroUITests */,
+				874FFC2C238DED2300F48927 /* pomodoro-watch */,
+				874FFC2F238DED2300F48927 /* pomodoro-watch WatchKit App */,
+				874FFC3E238DED2400F48927 /* pomodoro-watch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		874FFBF6238DECF800F48927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC08238DECFA00F48927 /* LaunchScreen.storyboard in Resources */,
+				874FFC05238DECFA00F48927 /* Assets.xcassets in Resources */,
+				874FFC03238DECF800F48927 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC0C238DECFA00F48927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC17238DECFA00F48927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC2B238DED2300F48927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC2E238DED2300F48927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC39238DED2400F48927 /* Assets.xcassets in Resources */,
+				874FFC37238DED2300F48927 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC3D238DED2400F48927 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC4B238DED2500F48927 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		874FFBF4238DECF800F48927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC00238DECF800F48927 /* ViewController.swift in Sources */,
+				874FFBFC238DECF800F48927 /* AppDelegate.swift in Sources */,
+				874FFBFE238DECF800F48927 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC0A238DECFA00F48927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC13238DECFA00F48927 /* pomodoroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC15238DECFA00F48927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC1E238DECFA00F48927 /* pomodoroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		874FFC3B238DED2400F48927 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874FFC49238DED2400F48927 /* NotificationController.swift in Sources */,
+				874FFC47238DED2400F48927 /* ExtensionDelegate.swift in Sources */,
+				874FFC45238DED2400F48927 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		874FFC10238DECFA00F48927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874FFBF7238DECF800F48927 /* pomodoro */;
+			targetProxy = 874FFC0F238DECFA00F48927 /* PBXContainerItemProxy */;
+		};
+		874FFC1B238DECFA00F48927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874FFBF7238DECF800F48927 /* pomodoro */;
+			targetProxy = 874FFC1A238DECFA00F48927 /* PBXContainerItemProxy */;
+		};
+		874FFC33238DED2300F48927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874FFC2F238DED2300F48927 /* pomodoro-watch WatchKit App */;
+			targetProxy = 874FFC32238DED2300F48927 /* PBXContainerItemProxy */;
+		};
+		874FFC42238DED2400F48927 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 874FFC3E238DED2400F48927 /* pomodoro-watch WatchKit Extension */;
+			targetProxy = 874FFC41238DED2400F48927 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		874FFC01238DECF800F48927 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874FFC02238DECF800F48927 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		874FFC06238DECFA00F48927 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874FFC07238DECFA00F48927 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		874FFC35238DED2300F48927 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				874FFC36238DED2300F48927 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		874FFC20238DECFA00F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		874FFC21238DECFA00F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		874FFC23238DECFA00F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = pomodoro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.pomodoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		874FFC24238DECFA00F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = pomodoro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.pomodoro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		874FFC26238DECFA00F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = pomodoroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.pomodoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoro.app/pomodoro";
+			};
+			name = Debug;
+		};
+		874FFC27238DECFA00F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = pomodoroTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.pomodoroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pomodoro.app/pomodoro";
+			};
+			name = Release;
+		};
+		874FFC29238DECFA00F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = pomodoroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.pomodoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pomodoro;
+			};
+			name = Debug;
+		};
+		874FFC2A238DECFA00F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = pomodoroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.pomodoroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pomodoro;
+			};
+			name = Release;
+		};
+		874FFC4F238DED2500F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = "pomodoro-watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.pomodoro-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		874FFC50238DED2500F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				INFOPLIST_FILE = "pomodoro-watch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.pomodoro-watch.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		874FFC53238DED2500F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				IBSC_MODULE = pomodoro_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "pomodoro-watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.pomodoro-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		874FFC54238DED2500F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				IBSC_MODULE = pomodoro_watch_WatchKit_Extension;
+				INFOPLIST_FILE = "pomodoro-watch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.pomodoro-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		874FFC57238DED2500F48927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.pomodoro-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		874FFC58238DED2500F48927 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B8U59M3KPH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Personal.pomodoro-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		874FFBF3238DECF800F48927 /* Build configuration list for PBXProject "pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC20238DECFA00F48927 /* Debug */,
+				874FFC21238DECFA00F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FFC22238DECFA00F48927 /* Build configuration list for PBXNativeTarget "pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC23238DECFA00F48927 /* Debug */,
+				874FFC24238DECFA00F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FFC25238DECFA00F48927 /* Build configuration list for PBXNativeTarget "pomodoroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC26238DECFA00F48927 /* Debug */,
+				874FFC27238DECFA00F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FFC28238DECFA00F48927 /* Build configuration list for PBXNativeTarget "pomodoroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC29238DECFA00F48927 /* Debug */,
+				874FFC2A238DECFA00F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FFC4E238DED2500F48927 /* Build configuration list for PBXNativeTarget "pomodoro-watch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC4F238DED2500F48927 /* Debug */,
+				874FFC50238DED2500F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FFC52238DED2500F48927 /* Build configuration list for PBXNativeTarget "pomodoro-watch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC53238DED2500F48927 /* Debug */,
+				874FFC54238DED2500F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		874FFC56238DED2500F48927 /* Build configuration list for PBXNativeTarget "pomodoro-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874FFC57238DED2500F48927 /* Debug */,
+				874FFC58238DED2500F48927 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 874FFBF0238DECF800F48927 /* Project object */;
+}
